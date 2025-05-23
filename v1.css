@@ -1,0 +1,634 @@
+.文本-透明 { color: transparent; }
+.文本-当前 { color: currentColor; }
+.文本-黑 { color: #000; }
+.文本-白 { color: #fff; }
+
+.文本-灰-50 { color: #f9fafb; }
+.文本-灰-100 { color: #f3f4f6; }
+.文本-灰-200 { color: #e5e7eb; }
+.文本-灰-300 { color: #d1d5db; }
+.文本-灰-400 { color: #9ca3af; }
+.文本-灰-500 { color: #6b7280; }
+.文本-灰-600 { color: #4b5563; }
+.文本-灰-700 { color: #374151; }
+.文本-灰-800 { color: #1f2937; }
+.文本-灰-900 { color: #111827; }
+
+.文本-红-50 { color: #fef2f2; }
+.文本-红-100 { color: #fee2e2; }
+.文本-红-200 { color: #fecaca; }
+.文本-红-300 { color: #fca5a5; }
+.文本-红-400 { color: #f87171; }
+.文本-红-500 { color: #ef4444; }
+.文本-红-600 { color: #dc2626; }
+.文本-红-700 { color: #b91c1c; }
+.文本-红-800 { color: #991b1b; }
+.文本-红-900 { color: #7f1d1d; }
+
+.文本-橙-50 { color: #fff7ed; }
+.文本-橙-100 { color: #ffedd5; }
+.文本-橙-200 { color: #fed7aa; }
+.文本-橙-300 { color: #fdba74; }
+.文本-橙-400 { color: #fb923c; }
+.文本-橙-500 { color: #f97316; }
+.文本-橙-600 { color: #ea580c; }
+.文本-橙-700 { color: #c2410c; }
+.文本-橙-800 { color: #9a3412; }
+.文本-橙-900 { color: #7c2d12; }
+
+.文本-黄-50 { color: #fefce8; }
+.文本-黄-100 { color: #fef9c3; }
+.文本-黄-200 { color: #fef08a; }
+.文本-黄-300 { color: #fde047; }
+.文本-黄-400 { color: #facc15; }
+.文本-黄-500 { color: #eab308; }
+.文本-黄-600 { color: #ca8a04; }
+.文本-黄-700 { color: #a16207; }
+.文本-黄-800 { color: #854d0e; }
+.文本-黄-900 { color: #713f12; }
+
+.文本-绿-50 { color: #f0fdf4; }
+.文本-绿-100 { color: #dcfce7; }
+.文本-绿-200 { color: #bbf7d0; }
+.文本-绿-300 { color: #86efac; }
+.文本-绿-400 { color: #4ade80; }
+.文本-绿-500 { color: #22c55e; }
+.文本-绿-600 { color: #16a34a; }
+.文本-绿-700 { color: #15803d; }
+.文本-绿-800 { color: #166534; }
+.文本-绿-900 { color: #14532d; }
+
+.文本-蓝-50 { color: #eff6ff; }
+.文本-蓝-100 { color: #dbeafe; }
+.文本-蓝-200 { color: #bfdbfe; }
+.文本-蓝-300 { color: #93c5fd; }
+.文本-蓝-400 { color: #60a5fa; }
+.文本-蓝-500 { color: #3b82f6; }
+.文本-蓝-600 { color: #2563eb; }
+.文本-蓝-700 { color: #1d4ed8; }
+.文本-蓝-800 { color: #1e40af; }
+.文本-蓝-900 { color: #1e3a8a; }
+
+.文本-紫-50 { color: #f5f3ff; }
+.文本-紫-100 { color: #ede9fe; }
+.文本-紫-200 { color: #ddd6fe; }
+.文本-紫-300 { color: #c4b5fd; }
+.文本-紫-400 { color: #a78bfa; }
+.文本-紫-500 { color: #8b5cf6; }
+.文本-紫-600 { color: #7c3aed; }
+.文本-紫-700 { color: #6d28d9; }
+.文本-紫-800 { color: #5b21b6; }
+.文本-紫-900 { color: #4c1d95; }
+
+.背景-透明 { background-color: transparent; }
+.背景-当前 { background-color: currentColor; }
+.背景-黑 { background-color: #000; }
+.背景-白 { background-color: #fff; }
+
+.背景-灰-50 { background-color: #f9fafb; }
+.背景-灰-100 { background-color: #f3f4f6; }
+.背景-灰-200 { background-color: #e5e7eb; }
+.背景-灰-300 { background-color: #d1d5db; }
+.背景-灰-400 { background-color: #9ca3af; }
+.背景-灰-500 { background-color: #6b7280; }
+.背景-灰-600 { background-color: #4b5563; }
+.背景-灰-700 { background-color: #374151; }
+.背景-灰-800 { background-color: #1f2937; }
+.背景-灰-900 { background-color: #111827; }
+
+.背景-红-50 { background-color: #fef2f2; }
+.背景-红-100 { background-color: #fee2e2; }
+.背景-红-200 { background-color: #fecaca; }
+.背景-红-300 { background-color: #fca5a5; }
+.背景-红-400 { background-color: #f87171; }
+.背景-红-500 { background-color: #ef4444; }
+.背景-红-600 { background-color: #dc2626; }
+.背景-红-700 { background-color: #b91c1c; }
+.背景-红-800 { background-color: #991b1b; }
+.背景-红-900 { background-color: #7f1d1d; }
+
+.背景-橙-50 { background-color: #fff7ed; }
+.背景-橙-100 { background-color: #ffedd5; }
+.背景-橙-200 { background-color: #fed7aa; }
+.背景-橙-300 { background-color: #fdba74; }
+.背景-橙-400 { background-color: #fb923c; }
+.背景-橙-500 { background-color: #f97316; }
+.背景-橙-600 { background-color: #ea580c; }
+.背景-橙-700 { background-color: #c2410c; }
+.背景-橙-800 { background-color: #9a3412; }
+.背景-橙-900 { background-color: #7c2d12; }
+
+.背景-黄-50 { background-color: #fefce8; }
+.背景-黄-100 { background-color: #fef9c3; }
+.背景-黄-200 { background-color: #fef08a; }
+.背景-黄-300 { background-color: #fde047; }
+.背景-黄-400 { background-color: #facc15; }
+.背景-黄-500 { background-color: #eab308; }
+.背景-黄-600 { background-color: #ca8a04; }
+.背景-黄-700 { background-color: #a16207; }
+.背景-黄-800 { background-color: #854d0e; }
+.背景-黄-900 { background-color: #713f12; }
+
+.背景-绿-50 { background-color: #f0fdf4; }
+.背景-绿-100 { background-color: #dcfce7; }
+.背景-绿-200 { background-color: #bbf7d0; }
+.背景-绿-300 { background-color: #86efac; }
+.背景-绿-400 { background-color: #4ade80; }
+.背景-绿-500 { background-color: #22c55e; }
+.背景-绿-600 { background-color: #16a34a; }
+.背景-绿-700 { background-color: #15803d; }
+.背景-绿-800 { background-color: #166534; }
+.背景-绿-900 { background-color: #14532d; }
+
+.背景-蓝-50 { background-color: #eff6ff; }
+.背景-蓝-100 { background-color: #dbeafe; }
+.背景-蓝-200 { background-color: #bfdbfe; }
+.背景-蓝-300 { background-color: #93c5fd; }
+.背景-蓝-400 { background-color: #60a5fa; }
+.背景-蓝-500 { background-color: #3b82f6; }
+.背景-蓝-600 { background-color: #2563eb; }
+.背景-蓝-700 { background-color: #1d4ed8; }
+.背景-蓝-800 { background-color: #1e40af; }
+.背景-蓝-900 { background-color: #1e3a8a; }
+
+.背景-紫-50 { background-color: #f5f3ff; }
+.背景-紫-100 { background-color: #ede9fe; }
+.背景-紫-200 { background-color: #ddd6fe; }
+.背景-紫-300 { background-color: #c4b5fd; }
+.背景-紫-400 { background-color: #a78bfa; }
+.背景-紫-500 { background-color: #8b5cf6; }
+.背景-紫-600 { background-color: #7c3aed; }
+.背景-紫-700 { background-color: #6d28d9; }
+.背景-紫-800 { background-color: #5b21b6; }
+.背景-紫-900 { background-color: #4c1d95; }
+
+.边框颜色-透明 { border-color: transparent; }
+.边框颜色-当前 { border-color: currentColor; }
+.边框颜色-黑 { border-color: #000; }
+.边框颜色-白 { border-color: #fff; }
+
+.边框颜色-灰-50 { border-color: #f9fafb; }
+.边框颜色-灰-100 { border-color: #f3f4f6; }
+.边框颜色-灰-200 { border-color: #e5e7eb; }
+.边框颜色-灰-300 { border-color: #d1d5db; }
+.边框颜色-灰-400 { border-color: #9ca3af; }
+.边框颜色-灰-500 { border-color: #6b7280; }
+.边框颜色-灰-600 { border-color: #4b5563; }
+.边框颜色-灰-700 { border-color: #374151; }
+.边框颜色-灰-800 { border-color: #1f2937; }
+.边框颜色-灰-900 { border-color: #111827; }
+
+.边框颜色-红-50 { border-color: #fef2f2; }
+.边框颜色-红-100 { border-color: #fee2e2; }
+.边框颜色-红-200 { border-color: #fecaca; }
+.边框颜色-红-300 { border-color: #fca5a5; }
+.边框颜色-红-400 { border-color: #f87171; }
+.边框颜色-红-500 { border-color: #ef4444; }
+.边框颜色-红-600 { border-color: #dc2626; }
+.边框颜色-红-700 { border-color: #b91c1c; }
+.边框颜色-红-800 { border-color: #991b1b; }
+.边框颜色-红-900 { border-color: #7f1d1d; }
+
+.边框颜色-橙-50 { border-color: #fff7ed; }
+.边框颜色-橙-100 { border-color: #ffedd5; }
+.边框颜色-橙-200 { border-color: #fed7aa; }
+.边框颜色-橙-300 { border-color: #fdba74; }
+.边框颜色-橙-400 { border-color: #fb923c; }
+.边框颜色-橙-500 { border-color: #f97316; }
+.边框颜色-橙-600 { border-color: #ea580c; }
+.边框颜色-橙-700 { border-color: #c2410c; }
+.边框颜色-橙-800 { border-color: #9a3412; }
+.边框颜色-橙-900 { border-color: #7c2d12; }
+
+.边框颜色-黄-50 { border-color: #fefce8; }
+.边框颜色-黄-100 { border-color: #fef9c3; }
+.边框颜色-黄-200 { border-color: #fef08a; }
+.边框颜色-黄-300 { border-color: #fde047; }
+.边框颜色-黄-400 { border-color: #facc15; }
+.边框颜色-黄-500 { border-color: #eab308; }
+.边框颜色-黄-600 { border-color: #ca8a04; }
+.边框颜色-黄-700 { border-color: #a16207; }
+.边框颜色-黄-800 { border-color: #854d0e; }
+.边框颜色-黄-900 { border-color: #713f12; }
+
+.边框颜色-绿-50 { border-color: #f0fdf4; }
+.边框颜色-绿-100 { border-color: #dcfce7; }
+.边框颜色-绿-200 { border-color: #bbf7d0; }
+.边框颜色-绿-300 { border-color: #86efac; }
+.边框颜色-绿-400 { border-color: #4ade80; }
+.边框颜色-绿-500 { border-color: #22c55e; }
+.边框颜色-绿-600 { border-color: #16a34a; }
+.边框颜色-绿-700 { border-color: #15803d; }
+.边框颜色-绿-800 { border-color: #166534; }
+.边框颜色-绿-900 { border-color: #14532d; }
+
+.边框颜色-蓝-50 { border-color: #eff6ff; }
+.边框颜色-蓝-100 { border-color: #dbeafe; }
+.边框颜色-蓝-200 { border-color: #bfdbfe; }
+.边框颜色-蓝-300 { border-color: #93c5fd; }
+.边框颜色-蓝-400 { border-color: #60a5fa; }
+.边框颜色-蓝-500 { border-color: #3b82f6; }
+.边框颜色-蓝-600 { border-color: #2563eb; }
+.边框颜色-蓝-700 { border-color: #1d4ed8; }
+.边框颜色-蓝-800 { border-color: #1e40af; }
+.边框颜色-蓝-900 { border-color: #1e3a8a; }
+
+.边框颜色-紫-50 { border-color: #f5f3ff; }
+.边框颜色-紫-100 { border-color: #ede9fe; }
+.边框颜色-紫-200 { border-color: #ddd6fe; }
+.边框颜色-紫-300 { border-color: #c4b5fd; }
+.边框颜色-紫-400 { border-color: #a78bfa; }
+.边框颜色-紫-500 { border-color: #8b5cf6; }
+.边框颜色-紫-600 { border-color: #7c3aed; }
+.边框颜色-紫-700 { border-color: #6d28d9; }
+.边框颜色-紫-800 { border-color: #5b21b6; }
+.边框颜色-紫-900 { border-color: #4c1d95; }
+
+.内边距-0 { padding: 0; }
+.内边距-1 { padding: 0.25rem; }
+.内边距-2 { padding: 0.5rem; }
+.内边距-3 { padding: 0.75rem; }
+.内边距-4 { padding: 1rem; }
+.内边距-5 { padding: 1.25rem; }
+.内边距-6 { padding: 1.5rem; }
+.内边距-8 { padding: 2rem; }
+.内边距-10 { padding: 2.5rem; }
+.内边距-12 { padding: 3rem; }
+.内边距-16 { padding: 4rem; }
+.内边距-20 { padding: 5rem; }
+
+.内边距上-0 { padding-top: 0; }
+.内边距上-1 { padding-top: 0.25rem; }
+.内边距上-2 { padding-top: 0.5rem; }
+.内边距上-3 { padding-top: 0.75rem; }
+.内边距上-4 { padding-top: 1rem; }
+.内边距上-5 { padding-top: 1.25rem; }
+.内边距上-6 { padding-top: 1.5rem; }
+.内边距上-8 { padding-top: 2rem; }
+.内边距上-10 { padding-top: 2.5rem; }
+.内边距上-12 { padding-top: 3rem; }
+.内边距上-16 { padding-top: 4rem; }
+.内边距上-20 { padding-top: 5rem; }
+
+.内边距右-0 { padding-right: 0; }
+.内边距右-1 { padding-right: 0.25rem; }
+.内边距右-2 { padding-right: 0.5rem; }
+.内边距右-3 { padding-right: 0.75rem; }
+.内边距右-4 { padding-right: 1rem; }
+.内边距右-5 { padding-right: 1.25rem; }
+.内边距右-6 { padding-right: 1.5rem; }
+.内边距右-8 { padding-right: 2rem; }
+.内边距右-10 { padding-right: 2.5rem; }
+.内边距右-12 { padding-right: 3rem; }
+.内边距右-16 { padding-right: 4rem; }
+.内边距右-20 { padding-right: 5rem; }
+
+.内边距下-0 { padding-bottom: 0; }
+.内边距下-1 { padding-bottom: 0.25rem; }
+.内边距下-2 { padding-bottom: 0.5rem; }
+.内边距下-3 { padding-bottom: 0.75rem; }
+.内边距下-4 { padding-bottom: 1rem; }
+.内边距下-5 { padding-bottom: 1.25rem; }
+.内边距下-6 { padding-bottom: 1.5rem; }
+.内边距下-8 { padding-bottom: 2rem; }
+.内边距下-10 { padding-bottom: 2.5rem; }
+.内边距下-12 { padding-bottom: 3rem; }
+.内边距下-16 { padding-bottom: 4rem; }
+.内边距下-20 { padding-bottom: 5rem; }
+
+.内边距左-0 { padding-left: 0; }
+.内边距左-1 { padding-left: 0.25rem; }
+.内边距左-2 { padding-left: 0.5rem; }
+.内边距左-3 { padding-left: 0.75rem; }
+.内边距左-4 { padding-left: 1rem; }
+.内边距左-5 { padding-left: 1.25rem; }
+.内边距左-6 { padding-left: 1.5rem; }
+.内边距左-8 { padding-left: 2rem; }
+.内边距左-10 { padding-left: 2.5rem; }
+.内边距左-12 { padding-left: 3rem; }
+.内边距左-16 { padding-left: 4rem; }
+.内边距左-20 { padding-left: 5rem; }
+
+.外边距-0 { margin: 0; }
+.外边距-1 { margin: 0.25rem; }
+.外边距-2 { margin: 0.5rem; }
+.外边距-3 { margin: 0.75rem; }
+.外边距-4 { margin: 1rem; }
+.外边距-5 { margin: 1.25rem; }
+.外边距-6 { margin: 1.5rem; }
+.外边距-8 { margin: 2rem; }
+.外边距-10 { margin: 2.5rem; }
+.外边距-12 { margin: 3rem; }
+.外边距-16 { margin: 4rem; }
+.外边距-20 { margin: 5rem; }
+
+.外边距上-0 { margin-top: 0; }
+.外边距上-1 { margin-top: 0.25rem; }
+.外边距上-2 { margin-top: 0.5rem; }
+.外边距上-3 { margin-top: 0.75rem; }
+.外边距上-4 { margin-top: 1rem; }
+.外边距上-5 { margin-top: 1.25rem; }
+.外边距上-6 { margin-top: 1.5rem; }
+.外边距上-8 { margin-top: 2rem; }
+.外边距上-10 { margin-top: 2.5rem; }
+.外边距上-12 { margin-top: 3rem; }
+.外边距上-16 { margin-top: 4rem; }
+.外边距上-20 { margin-top: 5rem; }
+
+.外边距右-0 { margin-right: 0; }
+.外边距右-1 { margin-right: 0.25rem; }
+.外边距右-2 { margin-right: 0.5rem; }
+.外边距右-3 { margin-right: 0.75rem; }
+.外边距右-4 { margin-right: 1rem; }
+.外边距右-5 { margin-right: 1.25rem; }
+.外边距右-6 { margin-right: 1.5rem; }
+.外边距右-8 { margin-right: 2rem; }
+.外边距右-10 { margin-right: 2.5rem; }
+.外边距右-12 { margin-right: 3rem; }
+.外边距右-16 { margin-right: 4rem; }
+.外边距右-20 { margin-right: 5rem; }
+
+.外边距下-0 { margin-bottom: 0; }
+.外边距下-1 { margin-bottom: 0.25rem; }
+.外边距下-2 { margin-bottom: 0.5rem; }
+.外边距下-3 { margin-bottom: 0.75rem; }
+.外边距下-4 { margin-bottom: 1rem; }
+.外边距下-5 { margin-bottom: 1.25rem; }
+.外边距下-6 { margin-bottom: 1.5rem; }
+.外边距下-8 { margin-bottom: 2rem; }
+.外边距下-10 { margin-bottom: 2.5rem; }
+.外边距下-12 { margin-bottom: 3rem; }
+.外边距下-16 { margin-bottom: 4rem; }
+.外边距下-20 { margin-bottom: 5rem; }
+
+.外边距左-0 { margin-left: 0; }
+.外边距左-1 { margin-left: 0.25rem; }
+.外边距左-2 { margin-left: 0.5rem; }
+.外边距左-3 { margin-left: 0.75rem; }
+.外边距左-4 { margin-left: 1rem; }
+.外边距左-5 { margin-left: 1.25rem; }
+.外边距左-6 { margin-left: 1.5rem; }
+.外边距左-8 { margin-left: 2rem; }
+.外边距左-10 { margin-left: 2.5rem; }
+.外边距左-12 { margin-left: 3rem; }
+.外边距左-16 { margin-left: 4rem; }
+.外边距左-20 { margin-left: 5rem; }
+
+.外边距-auto { margin: auto; }
+.外边距上-auto { margin-top: auto; }
+.外边距右-auto { margin-right: auto; }
+.外边距下-auto { margin-bottom: auto; }
+.外边距左-auto { margin-left: auto; }
+
+.文本大小-1 { font-size: 0.75rem; }  /* 12px */
+.文本大小-2 { font-size: 0.875rem; } /* 14px */
+.文本大小-3 { font-size: 1rem; }     /* 16px */
+.文本大小-4 { font-size: 1.125rem; } /* 18px */
+.文本大小-5 { font-size: 1.25rem; }  /* 20px */
+.文本大小-6 { font-size: 1.5rem; }   /* 24px */
+.文本大小-7 { font-size: 1.875rem; } /* 30px */
+.文本大小-8 { font-size: 2.25rem; }  /* 36px */
+.文本大小-9 { font-size: 3rem; }     /* 48px */
+.文本大小-10 { font-size: 3.75rem; } /* 60px */
+.文本大小-11 { font-size: 4.5rem; }  /* 72px */
+.文本大小-12 { font-size: 6rem; }    /* 96px */
+
+.文本对齐-左 { text-align: left; }
+.文本对齐-中 { text-align: center; }
+.文本对齐-右 { text-align: right; }
+.文本对齐-两端 { text-align: justify; }
+.文本对齐-分布 { text-align: distribute; }
+
+.字体粗细-细 { font-weight: 100; }
+.字体粗细-极细 { font-weight: 200; }
+.字体粗细-轻 { font-weight: 300; }
+.字体粗细-正常 { font-weight: 400; }
+.字体粗细-中 { font-weight: 500; }
+.字体粗细-半粗 { font-weight: 600; }
+.字体粗细-粗 { font-weight: 700; }
+.字体粗细-极粗 { font-weight: 800; }
+.字体粗细-最重 { font-weight: 900; }
+
+.文本装饰-无 { text-decoration: none; }
+.文本装饰-下划线 { text-decoration: underline; }
+.文本装饰-上划线 { text-decoration: overline; }
+.文本装饰-删除线 { text-decoration: line-through; }
+.文本装饰-波浪线 { text-decoration: wavy; }
+
+.文本转换-大写 { text-transform: uppercase; }
+.文本转换-小写 { text-transform: lowercase; }
+.文本转换-首字母大写 { text-transform: capitalize; }
+.文本转换-无 { text-transform: none; }
+
+.行高-1 { line-height: 1; }
+.行高-2 { line-height: 1.25; }
+.行高-3 { line-height: 1.375; }
+.行高-4 { line-height: 1.5; }
+.行高-5 { line-height: 1.625; }
+.行高-6 { line-height: 1.75; }
+.行高-7 { line-height: 2; }
+
+.字母间距-紧密 { letter-spacing: -0.05em; }
+.字母间距-正常 { letter-spacing: 0; }
+.字母间距-宽松 { letter-spacing: 0.05em; }
+.字母间距-极宽松 { letter-spacing: 0.1em; }
+
+.文本溢出-截断 { text-overflow: ellipsis; }
+.文本溢出-省略号 { text-overflow: ellipsis; }
+.文本溢出-剪辑 { text-overflow: clip; }
+
+.白色空间-正常 { white-space: normal; }
+.白色空间- nowrap { white-space: nowrap; }
+.白色空间-保留 { white-space: pre; }
+.白色空间-保留换行 { white-space: pre-line; }
+.白色空间-保留空格 { white-space: pre-wrap; }
+
+.文本缩进-1 { text-indent: 1rem; }
+.文本缩进-2 { text-indent: 2rem; }
+.文本缩进-3 { text-indent: 3rem; }
+
+.文本阴影-无 { text-shadow: none; }
+.文本阴影-小 { text-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+.文本阴影-中 { text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.文本阴影-大 { text-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+
+.边框-0 { border-width: 0; }
+.边框-1 { border-width: 1px; }
+.边框-2 { border-width: 2px; }
+.边框-4 { border-width: 4px; }
+.边框-8 { border-width: 8px; }
+
+.边框-上-0 { border-top-width: 0; }
+.边框-上-1 { border-top-width: 1px; }
+.边框-上-2 { border-top-width: 2px; }
+.边框-上-4 { border-top-width: 4px; }
+.边框-上-8 { border-top-width: 8px; }
+
+.边框-右-0 { border-right-width: 0; }
+.边框-右-1 { border-right-width: 1px; }
+.边框-右-2 { border-right-width: 2px; }
+.边框-右-4 { border-right-width: 4px; }
+.边框-右-8 { border-right-width: 8px; }
+
+.边框-下-0 { border-bottom-width: 0; }
+.边框-下-1 { border-bottom-width: 1px; }
+.边框-下-2 { border-bottom-width: 2px; }
+.边框-下-4 { border-bottom-width: 4px; }
+.边框-下-8 { border-bottom-width: 8px; }
+
+.边框-左-0 { border-left-width: 0; }
+.边框-左-1 { border-left-width: 1px; }
+.边框-左-2 { border-left-width: 2px; }
+.边框-左-4 { border-left-width: 4px; }
+.边框-左-8 { border-left-width: 8px; }
+
+.显示-块 { display: block; }
+.显示-内联 { display: inline; }
+.显示-内联块 { display: inline-block; }
+.显示-弹性 { display: flex; }
+.显示-内联弹性 { display: inline-flex; }
+.显示-网格 { display: grid; }
+.显示-内联网格 { display: inline-grid; }
+.显示-表格 { display: table; }
+.显示-内联表格 { display: inline-table; }
+.显示-表格单元格 { display: table-cell; }
+.显示-表格行 { display: table-row; }
+.显示-隐藏 { display: none; }
+.显示-流动根 { display: flow-root; }
+
+.浮动-左 { float: left; }
+.浮动-右 { float: right; }
+.浮动-无 { float: none; }
+.清除-左 { clear: left; }
+.清除-右 { clear: right; }
+.清除-两者 { clear: both; }
+
+.定位-静态 { position: static; }
+.定位-相对 { position: relative; }
+.定位-绝对 { position: absolute; }
+.定位-固定 { position: fixed; }
+.定位-粘性 { position: sticky; }
+
+.上-0 { top: 0; }
+.右-0 { right: 0; }
+.下-0 { bottom: 0; }
+.左-0 { left: 0; }
+.上-1 { top: 0.25rem; }
+.右-1 { right: 0.25rem; }
+.下-1 { bottom: 0.25rem; }
+.左-1 { left: 0.25rem; }
+.上-2 { top: 0.5rem; }
+.右-2 { right: 0.5rem; }
+.下-2 { bottom: 0.5rem; }
+.左-2 { left: 0.5rem; }
+
+.可见 { visibility: visible; }
+.不可见 { visibility: hidden; }
+.崩溃 { visibility: collapse; }
+
+.溢出-可见 { overflow: visible; }
+.溢出-隐藏 { overflow: hidden; }
+.溢出-自动 { overflow: auto; }
+.溢出-滚动 { overflow: scroll; }
+.溢出-x-可见 { overflow-x: visible; }
+.溢出-x-隐藏 { overflow-x: hidden; }
+.溢出-x-自动 { overflow-x: auto; }
+.溢出-x-滚动 { overflow-x: scroll; }
+.溢出-y-可见 { overflow-y: visible; }
+.溢出-y-隐藏 { overflow-y: hidden; }
+.溢出-y-自动 { overflow-y: auto; }
+.溢出-y-滚动 { overflow-y: scroll; }
+
+.z-0 { z-index: 0; }
+.z-10 { z-index: 10; }
+.z-20 { z-index: 20; }
+.z-30 { z-index: 30; }
+.z-40 { z-index: 40; }
+.z-50 { z-index: 50; }
+.z-负10 { z-index: -10; }
+.z-自动 { z-index: auto; }
+
+.弹性-方向-行 { flex-direction: row; }
+.弹性-方向-行反转 { flex-direction: row-reverse; }
+.弹性-方向-列 { flex-direction: column; }
+.弹性-方向-列反转 { flex-direction: column-reverse; }
+.弹性-换行 { flex-wrap: wrap; }
+.弹性-不换行 { flex-wrap: nowrap; }
+.弹性-换行反转 { flex-wrap: wrap-reverse; }
+.弹性-1 { flex: 1; }
+.弹性-自动 { flex: auto; }
+.弹性-初始 { flex: initial; }
+.弹性-无 { flex: none; }
+.弹性-grow-0 { flex-grow: 0; }
+.弹性-grow-1 { flex-grow: 1; }
+.弹性-收缩-0 { flex-shrink: 0; }
+.弹性-收缩-1 { flex-shrink: 1; }
+
+.内容-开始 { justify-content: flex-start; }
+.内容-结束 { justify-content: flex-end; }
+.内容-中心 { justify-content: center; }
+.内容-间距均匀 { justify-content: space-around; }
+.内容-间距两端 { justify-content: space-between; }
+.内容-间距均分 { justify-content: space-evenly; }
+.项目-开始 { align-items: flex-start; }
+.项目-结束 { align-items: flex-end; }
+.项目-中心 { align-items: center; }
+.项目-基线 { align-items: baseline; }
+.项目-拉伸 { align-items: stretch; }
+.自我-开始 { align-self: flex-start; }
+.自我-结束 { align-self: flex-end; }
+.自我-中心 { align-self: center; }
+.自我-基线 { align-self: baseline; }
+.自我-拉伸 { align-self: stretch; }
+.对齐内容-开始 { align-content: flex-start; }
+.对齐内容-结束 { align-content: flex-end; }
+.对齐内容-中心 { align-content: center; }
+.对齐内容-间距均匀 { align-content: space-around; }
+.对齐内容-间距两端 { align-content: space-between; }
+.对齐内容-拉伸 { align-content: stretch; }
+
+.网格-模板-列-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.网格-模板-列-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.网格-模板-列-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.网格-模板-列-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.网格-模板-列-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.网格-模板-列-6 { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.网格-模板-行-1 { grid-template-rows: repeat(1, minmax(0, 1fr)); }
+.网格-模板-行-2 { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+.网格-模板-行-3 { grid-template-rows: repeat(3, minmax(0, 1fr)); }
+.网格-列-跨度-1 { grid-column: span 1 / span 1; }
+.网格-列-跨度-2 { grid-column: span 2 / span 2; }
+.网格-列-跨度-3 { grid-column: span 3 / span 3; }
+.网格-列-跨度-全 { grid-column: 1 / -1; }
+.网格-行-跨度-1 { grid-row: span 1 / span 1; }
+.网格-行-跨度-2 { grid-row: span 2 / span 2; }
+.网格-行-跨度-3 { grid-row: span 3 / span 3; }
+.网格-行-跨度-全 { grid-row: 1 / -1; }
+.网格-间距-0 { gap: 0; }
+.网格-间距-1 { gap: 0.25rem; }
+.网格-间距-2 { gap: 0.5rem; }
+.网格-间距-3 { gap: 0.75rem; }
+.网格-间距-4 { gap: 1rem; }
+.网格-间距-x-0 { column-gap: 0; }
+.网格-间距-x-1 { column-gap: 0.25rem; }
+.网格-间距-x-2 { column-gap: 0.5rem; }
+.网格-间距-x-3 { column-gap: 0.75rem; }
+.网格-间距-x-4 { column-gap: 1rem; }
+.网格-间距-y-0 { row-gap: 0; }
+.网格-间距-y-1 { row-gap: 0.25rem; }
+.网格-间距-y-2 { row-gap: 0.5rem; }
+.网格-间距-y-3 { row-gap: 0.75rem; }
+.网格-间距-y-4 { row-gap: 1rem; }
+
+.网格-自动流-行 { grid-auto-flow: row; }
+.网格-自动流-列 { grid-auto-flow: column; }
+.网格-自动流-行密集 { grid-auto-flow: row dense; }
+.网格-自动流-列密集 { grid-auto-flow: column dense; }
+
+.表格-布局-固定 { table-layout: fixed; }
+.表格-布局-自动 { table-layout: auto; }
+.边框-折叠 { border-collapse: collapse; }
+.边框-分离 { border-collapse: separate; }
+.表格-单元格间距-0 { border-spacing: 0; }
+.表格-单元格间距-1 { border-spacing: 0.25rem; }
+.表格-单元格间距-2 { border-spacing: 0.5rem; }    
