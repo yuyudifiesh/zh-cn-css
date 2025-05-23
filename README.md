@@ -4,7 +4,7 @@
 Chinese css libraries with very low practicality, you can use Chinese to set some css classes (Just a joke).
 
 ```html
-<script src="https://yuyudifiesh.github.io/zh-cn-css/"></script>
+<script src="https://yuyudifiesh.github.io/zh-cn-css/v1.css"></script>
 ```
 
 ## V1 版本
